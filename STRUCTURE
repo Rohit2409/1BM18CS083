@@ -1,0 +1,16 @@
+#include<stdio.h> 
+intmain() 
+{ 
+typedefstructmarks {intds;intld;intdm;intoop;intma;intcipe;intcoa; };
+structstudent {chara[20]; charusn[10];structmarksm; }s1;
+printf("enterthenameofthestudent\nentertheusn\n"); 
+gets(s1.a);
+gets(s1.usn); 
+printf("enterthemarksofstudentofallsubjects:");
+scanf("%d%d%d%d%d%d%d",&s1.m.ds,&s1.m.ld,&s1.m.dm,&s1.m.oop,&s1.m.ma,&s1.m.cipe,&s1. m.coa);
+printf("studentinformation\n"); 
+puts(s1.a); 
+printf("\nusn:%s",s1.usn); 
+printf("student marks\n: ds:%d\n,ld:%d\n,dm:%d\n,oop:%d\n,ma:%d\n,cipe:%d\n,coa:%d\n",s1.m.ds,s1.m.ld,s1.m.dm,s1.m. oop,s1.m.ma,s1.m.cipe,s1.m.coa); 
+return0;
+} 
